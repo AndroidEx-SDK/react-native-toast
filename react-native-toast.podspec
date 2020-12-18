@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
 
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "git://github.com/remobile/react-native-toast.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/AndroidEx-SDK/react-native-toast.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true
 
